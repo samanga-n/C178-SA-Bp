@@ -1,7 +1,7 @@
 // Initializing Mapbox
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2FtYW5nYSIsImEiOiJjbGdxbWk4a2EwZmtuM3Ntczl6c3NrOWl5In0.q5hoAME72bwjEBkaOnAhEw'
+mapboxgl.accessToken = ''
 
-let latitude=10.003305330780108, longitude=76.33702040942886
+let latitude=, longitude=
 
 var map = new mapboxgl.Map({
 
@@ -21,9 +21,4 @@ map.addControl(
 	})
 );
 
-map.addControl(
-	new MapboxDirections({
-		accessToken: mapboxgl.accessToken
-	}),
-	'top-left'
-);
+
